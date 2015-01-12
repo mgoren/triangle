@@ -1,0 +1,49 @@
+body {
+  background-color: #A9D2BC;
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.container {
+  background-color: #EBBDCE;
+  margin: 150px auto 0 auto;
+  padding: 15px;
+  width: 450px;
+  border: 3px double #666;
+  border-radius: 15px;
+
+}
+
+.form-label {
+  width: 200px;
+  float: left;
+  padding-top: 8px
+
+}
+
+.form-control {
+  width: 200px;
+
+}
+
+.button {
+  margin-left: 160px;
+  border-radius: 15px;
+  background-color: #B85D7F;
+  color: lightgrey;
+  padding: 5px 10px;
+  border: 1px solid lightgrey;
+
+}
+
+.results {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}

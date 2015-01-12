@@ -1,0 +1,19 @@
+<h1>Triangle Type Finder</h1>
+<form action="/triangle">
+  <div class="form-group">
+    <label class="form-label" for="side1">Enter first side length:</label>
+    <input id="side1" name="side1" class="form-control" type="text" placeholder=<%= @side1 %>>
+  </div>
+  <div class="form-group">
+    <label class="form-label" for="side2">Enter second side length:</label>
+    <input id="side2" name="side2" class="form-control" type="text" placeholder=<%= @side2 %>>
+  </div>
+  <div class="form-group">
+    <label class="form-label" for="side3">Enter third side length:</label>
+    <input id="side3" name="side3" class="form-control" type="text" placeholder=<%= @side3 %>>
+  </div>
+  <button type="submit" class="button">What Type?</button>
+</form>
+<div class="results">
+  <%= @type %>
+</div>
